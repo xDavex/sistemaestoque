@@ -14,9 +14,7 @@
             MsgBox("Conexão falhou!" & ex.Message)
         End Try
     End Sub
-'teste de conexão
-'mais linhas
-'adicionadas
+
     Sub limpar_login()
         With Login
             .txt_senha.Clear()
