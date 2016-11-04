@@ -1,0 +1,16 @@
+J:\SistemaEstoque\SistemaEstoque\bin\Debug\SistemaEstoque.exe.config
+J:\SistemaEstoque\SistemaEstoque\bin\Debug\SistemaEstoque.exe
+J:\SistemaEstoque\SistemaEstoque\bin\Debug\SistemaEstoque.pdb
+J:\SistemaEstoque\SistemaEstoque\bin\Debug\SistemaEstoque.xml
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.Login.resources
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.Resources.resources
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.vbproj.GenerateResource.Cache
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.exe
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.xml
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.pdb
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\Interop.ADODB.dll
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\Interop.ADOMD.dll
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\Interop.ADOR.dll
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\Interop.ADOX.dll
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.vbproj.ResolveComReference.cache
+J:\SistemaEstoque\SistemaEstoque\obj\Debug\SistemaEstoque.frm_esqueceuSenha.resources
