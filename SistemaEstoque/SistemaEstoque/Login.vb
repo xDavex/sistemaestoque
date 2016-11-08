@@ -34,6 +34,7 @@
 
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lbl_tent.Visible = False
+        lbl_bloq.Visible = False
         conexao_banco()
     End Sub
 
@@ -77,4 +78,15 @@
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         frm_esqueceuSenha.Show()
     End Sub
+
+    'fazer piscar a mensagem de "USUARIO BLOQUEADO"
+    '  Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+    ' If lbl_bloq.Visible = True Then
+    '        lbl_bloq.Visible = False
+    'ElseIf lbl_tent.Visible = False Then
+    '       lbl_bloq.Visible = True
+    '      lbl_bloq.ForeColor = Color.Red
+    '  End If
+
+    'End Sub
 End Class
