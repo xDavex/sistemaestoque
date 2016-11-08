@@ -22,6 +22,7 @@ Partial Class Login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -31,6 +32,10 @@ Partial Class Login
         Me.btn_entrar = New System.Windows.Forms.Button()
         Me.lbl_tent = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lbl_bloq = New System.Windows.Forms.Label()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -104,11 +109,38 @@ Partial Class Login
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Esqueci minha senha"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.ErrorImage = Nothing
+        Me.PictureBox1.Image = Global.SistemaEstoque.My.Resources.Resources.lock_png
+        Me.PictureBox1.Location = New System.Drawing.Point(208, 67)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(67, 63)
+        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.TabStop = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 500
+        '
+        'lbl_bloq
+        '
+        Me.lbl_bloq.AutoSize = True
+        Me.lbl_bloq.Location = New System.Drawing.Point(80, 137)
+        Me.lbl_bloq.Name = "lbl_bloq"
+        Me.lbl_bloq.Size = New System.Drawing.Size(126, 13)
+        Me.lbl_bloq.TabIndex = 9
+        Me.lbl_bloq.Text = "USUÁRIO BLOQUEADO"
+        Me.lbl_bloq.Visible = False
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(287, 207)
+        Me.Controls.Add(Me.lbl_bloq)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.lbl_tent)
         Me.Controls.Add(Me.btn_entrar)
@@ -121,6 +153,7 @@ Partial Class Login
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -133,5 +166,7 @@ Partial Class Login
     Friend WithEvents btn_entrar As System.Windows.Forms.Button
     Friend WithEvents lbl_tent As System.Windows.Forms.Label
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
-
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents lbl_bloq As Label
 End Class
